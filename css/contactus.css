@@ -1,0 +1,176 @@
+/* ====================================== CONTACT US ==================================== */
+.firstSectionContact{
+    background-image: url('../images/11.jpg');
+    height: 400px;
+    width: 100%;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 300px;
+    padding-bottom: 150px;
+    display: grid;
+    justify-content: center;
+}
+
+.firstSectionContact>h3, .firstSectionContact>ul>li{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.firstSectionContact>ul>li{
+    font-size: 12px;
+}
+
+.firstSectionContact>ul>li>a{
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+}
+
+.firstSectionContact>ul>li{
+    display: inline;
+}
+
+.fa-angle-right{
+    color: white;
+    font-size: 15px ;
+    margin: 0px 10px;
+    position: relative;
+    bottom: -1px;
+}
+
+.secondSectionContact{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-self: center;
+    column-gap: 35px;
+    padding: 80px 200px; 
+}
+
+.first-column{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.contactForm{
+    display: grid;
+    grid-template-rows: 15% 70% 15%;
+}
+
+.name-phone{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.name-phone>input{
+    padding-left: 20px;
+    border: none;
+    background-color: white;
+    outline: none;
+}
+
+#form-user-phone{
+    margin-left: 10px;
+}
+
+.messageArea{
+    margin: 10px 0px;  
+}
+
+.messageArea>textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: white;
+    padding-left: 20px; 
+    outline: none;
+}
+
+.email-sendButton{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.email-sendButton>input{
+    border: none;    
+    background-color: white;
+    outline: none;
+    border-radius: 2px;
+}
+
+.email-sendButton>input:active{
+    background-color: white;
+    border: 5px solid rgb(100,176,0);
+    border: 1px;
+}
+
+.email-sendButton>input:focus, .name-phone>input:focus, .messageArea>textarea:focus {
+    background-color: white;
+    border: 1px solid rgb(100,176,0);
+}
+
+#form-email{
+    margin-right: 10px;
+    padding-left: 20px; 
+}
+
+.second-column{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.heading-component-title::before{
+    content: " ";
+    border-left: 4px solid rgb(100,176,0);
+    margin-right: 10px ;
+}
+.heading-component-title{
+    text-transform: uppercase;
+}
+
+.contact-list{
+    background-color: white;
+    font-size: 15px ;
+}
+
+.contact-list>div>dl{
+    display: grid;
+    align-self: center;
+    padding: 5px 50px;
+}
+
+.dlEmail{
+    margin-top:20px;
+}
+
+.dlPhone{
+    margin: 25px 0px;
+}
+
+.contact-list>div>dl>dd>a{
+    text-decoration: none; 
+    color: black;
+}
+
+.contact-list>div>dl>dt{
+    color: rgb(100,176,0);
+}
+
+.contact-list>div>dl>dd>a:hover{
+    color: rgb(100,176,0);
+}
+
+.icon{
+    color: rgb(100,176,0);
+    margin-right: 15px;
+}
+
+.sendButton{
+    border: none;
+    background-color: rgb(100,176,0);
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.sendButton:hover{
+    background-color: rgb(255, 208, 0);    
+}
