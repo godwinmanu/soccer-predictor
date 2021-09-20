@@ -6,7 +6,7 @@
         <ul>
             <li> <a href="index.php" id="predictions-tab">PREDICTIONS</a></li>
             <li> <a href="results.php" id="results-tab"> RESULTS</a></li>
-            <li> <a href="#" id="faqs-tab"> FAQs</a></li>
+            <li> <a href="faq.php" id="faqs-tab"> FAQs</a></li>
             <li> <a href="contactus.php" id="contact-us-tab"> CONTACT US</a></li>
         </ul>
 

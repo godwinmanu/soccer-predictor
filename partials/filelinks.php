@@ -5,3 +5,4 @@
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/results.css">
 <link rel="stylesheet" href="css/contactus.css">
+<link rel="stylesheet" href="css/faq.css">

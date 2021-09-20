@@ -1,0 +1,45 @@
+.containFAQ{
+    padding-top: 170px;
+    margin: 0px 10%;
+}
+
+.question_reponse{
+    margin-bottom: 3%;
+    background-color: whitesmoke;
+}
+
+.question{
+    font-size: 17px;
+    padding: 10px;
+}
+
+.question span{
+    color: rgb(255, 94, 0);
+    font-size: 30px;
+}
+
+.reponse span{
+    color: rgb(100,176,0);
+    font-size: 30px;
+}
+
+.reponse{
+    padding: 10px;
+    font-size: 17px;
+    background-color: aliceblue;
+}
+
+#title_faq::before{
+    content: " ";
+    border-left: 4px solid rgb(100,176,0);
+    margin-right: 10px ;
+}
+
+#title_faq{
+    text-transform: uppercase;
+    border-bottom: 0.5px solid rgb(202, 198, 198);
+    padding-bottom: 15px;
+    margin-bottom: 3%;
+
+}
+
