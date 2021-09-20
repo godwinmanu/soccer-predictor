@@ -9,12 +9,12 @@
 
     </div>
     <div class="join-team">
-      <div class="text-center">JOIN OUR TEAM</div> 
+      <div class="text-center"> <i class="fas fa-users"></i> JOIN OUR TEAM</div> 
       <div><a href="#">Website Team Link</a></div> 
       
     </div>
     <div class="contact-us">
-      <div class="text-center">CONTACT US</div> 
+      <div class="text-center"> <i class="fas fa-envelope"></i> CONTACT US</div> 
       <div><a href="mailto:">addresse@gmail.com</a></div> 
 
     </div>
