@@ -38,8 +38,6 @@
                 <th>HOME TEAM</th>
                 <th></th>
                 <th>AWAY TEAM</th>
-                <!-- <th>HALF TIME</th>
-                <th>FULL TIME</th> -->
                 <th>TIPS</th>
             </tr>
         </thead>

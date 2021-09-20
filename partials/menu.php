@@ -9,19 +9,20 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="Font_awesome/css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/results.css">
     <title>Soccer Predictor</title>
 </head>
 <body>
     <header>
         <div class="jumbotron">
-            <a href="#">SOCCER PREDICTOR LOGO</a>
+            <a href="index.php">SOCCER PREDICTOR LOGO</a>
         </div>
         <nav>
             <ul>
-                <li> <a href="#" class="#">PREDICTIONS</a></li>
-                <li> <a href="#" class="#"> RESULTS</a></li>
-                <li> <a href="#" class="#"> FAQs</a></li>
-                <li> <a href="#" class="#"> CONTACT US</a></li>
+                <li> <a href="#">PREDICTIONS</a></li>
+                <li> <a href="results.php"> RESULTS</a></li>
+                <li> <a href="#"> FAQs</a></li>
+                <li> <a href="#"> CONTACT US</a></li>
             </ul>
 
             <div class="social-networks">
