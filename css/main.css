@@ -78,7 +78,7 @@ table{
 
 /* ================== INDEX PAGE ================ */
 .carousel-item{
-    height: 510px;
+    height: 550px;
     width: 100vw;
 }
 
@@ -101,7 +101,9 @@ table{
     text-align: center;
 }
 
-
+.carousel h3{
+    font-size: 35px;
+}
 
 
 

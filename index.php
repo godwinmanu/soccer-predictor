@@ -13,10 +13,13 @@
     <div id="carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
-                <img src="images/ball_on_stadium.webp" alt="SLIDE">
+                <img src="images/soccer-stadium.jpg" alt="SLIDE">
             </div>
             <div class="carousel-item" data-bs-interval="3000">
-                <img src="images/betting_tips_1.jpg" alt="SLIDE">
+                <img src="images/Ball-Field-Match-Football-Stadium-Soccer.png" alt="SLIDE">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="images/soccer-stadium_2.webp" alt="SLIDE">
             </div>
         </div>
         <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel">
