@@ -12,7 +12,7 @@
     
     <div class="containFAQ">
         <div class="heading-component">
-            <h5 id="title_faq">Frequently Asked Questions (FAQs)</h5>
+            <h5 id="title_faq">Frequently Asked Questions (FAQ)</h5>
         </div>
         <div class="question_reponse">
             <p class="question"> <span>Q.</span> What does 1, X, 2 mean?</p>
