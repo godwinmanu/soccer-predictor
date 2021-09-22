@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php require("partials/filelinks.php"); ?>
-    <title>Results | Soccer Predictor</title>
-</head>
-<body>
-    <?php require("partials/menu.php"); ?>
+<?php $title = "Results | Soccer Predictor"; ?>
 
-    <div class="main">
+<?php ob_start(); ?>
 
-        <div class="filters">
+   <div class="main">
+
+        <!-- <div class="filters">
             <select name="hour-filter" id="hour-filter">
                 <option value="last 24 hours" selected>Last 24 hours</option>
                 <option value="last 12 hours">Last 12 hours</option>
@@ -24,7 +16,7 @@
             <select name="competition-filter" id="competition-filter">
                 <option value="champion's league" selected="">Champion's League</option>
             </select>
-        </div>
+        </div> -->
 
         <table class="predictions-table">
             <thead>
@@ -62,7 +54,6 @@
         });
     </script>
 
-    <?php require("partials/footer.php"); ?>   
+<?php $content = ob_get_clean(); ?>
 
-</body>
-</html>
+<?php require("../template.php"); ?>

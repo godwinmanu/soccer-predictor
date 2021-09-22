@@ -1,13 +1,13 @@
 <header>
     <div class="jumbotron">
-        <a href="index.php">SOCCER PREDICTOR LOGO</a>
+        <a href="/soccer_predictor/index.php">SOCCER PREDICTOR LOGO</a>
     </div>
     <nav>
         <ul>
-            <li> <a href="index.php" id="predictions-tab">PREDICTIONS</a></li>
-            <li> <a href="results.php" id="results-tab"> RESULTS</a></li>
-            <li> <a href="faq.php" id="faqs-tab"> FAQs</a></li>
-            <li> <a href="contactus.php" id="contact-us-tab"> CONTACT US</a></li>
+            <li> <a href="/soccer_predictor/index.php" id="predictions-tab"> PREDICTIONS  </a></li>
+            <li> <a href="/soccer_predictor/views/pages/results.php" id="results-tab"> RESULTS </a></li>
+            <li> <a href="/soccer_predictor/views/pages/faq.php" id="faqs-tab"> FAQs </a></li>
+            <li> <a href="/soccer_predictor/views/pages/contactus.php" id="contact-us-tab"> CONTACT US </a></li>
         </ul>
 
         <div class="social-networks">

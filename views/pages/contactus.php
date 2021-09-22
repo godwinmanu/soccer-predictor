@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php require("partials/filelinks.php"); ?>
-    <title>Contact Us | Soccer Predictor</title>
-</head>
-<body>
-  <?php require("partials/menu.php"); ?>
+<?php $title = "Contact Us | Soccer Predictor"; ?>
+
+<?php ob_start(); ?>
 
   <section class="firstSectionContact">
       <h3 class="">Contact us</h3>
@@ -87,7 +79,7 @@
           });
       });
   </script>
-  <?php require("partials/footer.php"); ?>  
 
-</body>
-</html>
+<?php $content = ob_get_clean(); ?>
+
+<?php require("../template.php"); ?>
