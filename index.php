@@ -56,6 +56,8 @@
         $("#predictions-tab").css({
             color: "rgb(255, 208, 0)"
         });
+
+        $("table").DataTable();
     });
 </script>
 
