@@ -1,3 +1,12 @@
+<?php
+    $uri = 'http://api.football-data.org/v2/matches?status=SCHEDULED';
+    $reqPrefs['http']['method'] = 'GET';
+    $reqPrefs['http']['header'] = 'X-Auth-Token: 305c37cae55d478789631eb31480e3a4';
+    $stream_context = stream_context_create($reqPrefs);
+    $response = file_get_contents($uri, false, $stream_context);
+    $result = json_decode($response, true);
+?>
+
 <?php $title = "Soccer Predictor"; ?>
 
 <?php ob_start(); ?>
@@ -35,19 +44,16 @@
             </tr>
         </thead>
         <tbody>
-            <?php 
-                for($i = 0; $i < 5; $i++){
-                    ?>
-                        <tr>
-                            <td><h3> &#x26BD;</h3></td>
-                            <td>9-15T18:45</td>
-                            <td>Bristol City FC</td>
-                            <td>Luton Town FC</td>
-                            <td>5-0</td>
-                        </tr>
-                    <?php
-                }
-            ?>
+            
+            <?php foreach ($result['matches'] as $key => $value) { ?>
+                <tr>
+                    <td><h3> &#x26BD;</h3></td>
+                    <td> <?= $value['utcDate'] ?> </td>
+                    <td class="team_logo"> <?= empty($value['homeTeam']) ? " - " : '<img src="'.'https://crests.football-data.org/'.$value['homeTeam']['id'].'.svg'.'" alt="">'.$value['homeTeam']['name'];  ?> </td>
+                    <td class="team_logo"> <?= empty($value['awayTeam']) ? " - " : '<img src="'.'https://crests.football-data.org/'.$value['awayTeam']['id'].'.svg'.'" alt="">'.$value['awayTeam']['name']  ?> </td>
+                    <td> <?= " -- " ?> </td>
+                </tr>        
+            <?php } ?>
         </tbody>
     </table>
 </div>
