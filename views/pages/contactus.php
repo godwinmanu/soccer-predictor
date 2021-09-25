@@ -74,9 +74,19 @@
 
   <script>
       $(function(){
-          $("#contact-us-tab").css({
-              color: "rgb(255, 208, 0)"
-          });
+          let userScreenWidth = screen.width;
+
+          if(userScreenWidth < 992){
+              $("#contact-us-tab").parent().css({
+                  backgroundColor: "#64b000"
+              });
+          }
+          else{
+              $("#contact-us-tab").css({
+                  color: "rgb(255, 208, 0)"
+              });
+          }
+
       });
   </script>
 

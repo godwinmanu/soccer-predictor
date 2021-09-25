@@ -41,9 +41,20 @@
     </div>
     <script>
         $(function(){
-            $("#faqs-tab").css({
-                color: "rgb(255, 208, 0)"
-            });
+            let userScreenWidth = screen.width;
+
+            if(userScreenWidth < 992){
+                $("#faqs-tab").parent().css({
+                    backgroundColor: "#64b000"
+                });
+            }
+            else{
+                $("#faqs-tab").css({
+                    color: "rgb(255, 208, 0)"
+                });
+            }
+
+            
         });
     </script>
 

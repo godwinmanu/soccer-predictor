@@ -26,7 +26,7 @@
             </select>
         </div> -->
 
-        <table class="predictions-table">
+        <table class="results-table">
             <thead>
                 <tr>
                     <th></th>
@@ -53,9 +53,18 @@
 
     <script>
         $(function(){
-            $("#results-tab").css({
-                color: "rgb(255, 208, 0)",
-            });
+            let userScreenWidth = screen.width;
+
+            if(userScreenWidth < 992){
+                $("#results-tab").parent().css({
+                    backgroundColor: "#64b000"
+                });
+            }
+            else{
+                $("#results-tab").css({
+                    color: "rgb(255, 208, 0)"
+                });
+            }
 
             $(".main").css({
                 paddingTop: "170px"  

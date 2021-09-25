@@ -59,9 +59,18 @@
 </div>
 <script>
     $(function(){
-        $("#predictions-tab").css({
-            color: "rgb(255, 208, 0)"
-        });
+        let userScreenWidth = screen.width;
+
+        if(userScreenWidth < 992){
+            $("#predictions-tab").parent().css({
+                backgroundColor: "#64b000"
+            });
+        }
+        else{
+            $("#predictions-tab").css({
+                color: "rgb(255, 208, 0)"
+            });
+        }
 
         $("table").DataTable();
     });
