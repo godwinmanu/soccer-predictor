@@ -65,14 +65,24 @@
             $("#predictions-tab").parent().css({
                 backgroundColor: "#64b000"
             });
+
+            $("table").DataTable({
+                info: false,
+                "lengthChange": false,
+                responsive: true,
+            });
         }
         else{
             $("#predictions-tab").css({
                 color: "rgb(255, 208, 0)"
             });
+
+            $("table").DataTable( {
+                responsive: true
+            });
         }
 
-        $("table").DataTable();
+        
     });
 </script>
 

@@ -11,21 +11,7 @@
 
 <?php ob_start(); ?>
 
-   <div class="main" id="tab">
-        <!-- <div class="filters">
-            <select name="hour-filter" id="hour-filter">
-                <option value="last 24 hours" selected>Last 24 hours</option>
-                <option value="last 12 hours">Last 12 hours</option>
-                <option value="last 6 hours">Last 6 hours</option>
-                <option value="last 3 hours">Last 3 hours</option>
-                <option value="last 1 hour">Last 1 hour</option>
-            </select>
-
-            <select name="competition-filter" id="competition-filter">
-                <option value="champion's league" selected="">Champion's League</option>
-            </select>
-        </div> -->
-
+   <div id="tab">
         <table class="results-table">
             <thead>
                 <tr>
@@ -59,10 +45,20 @@
                 $("#results-tab").parent().css({
                     backgroundColor: "#64b000"
                 });
+
+                $("table").DataTable({
+                    info: false,
+                    "lengthChange": false,
+                    responsive: true,
+                });
             }
             else{
                 $("#results-tab").css({
                     color: "rgb(255, 208, 0)"
+                });
+
+                $("table").DataTable({
+                    responsive: true,
                 });
             }
 
@@ -70,7 +66,7 @@
                 paddingTop: "170px"  
             });
             
-            $("table").DataTable();
+            
         });
     </script>
 

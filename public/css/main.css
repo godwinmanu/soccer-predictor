@@ -66,11 +66,6 @@ nav a:hover{
     font-size: 18px;
 }
 
-table{
-    width: 100%;
-    text-align: center;
-}
-
 .main{
     padding: 3% 7%;
 }
@@ -91,6 +86,11 @@ table{
     filter: brightness(60%);
 }
 
+table{
+    width: 100%;
+    text-align: center;
+}
+
 .predictions-table th{
     padding: 10px;
     background-color: #616161;
@@ -108,7 +108,11 @@ table{
     font-size: 35px;
 }
 
-
+.team_logo img,
+.child img{
+    height: 15px;
+    width: 20px;
+}
 
 /* ================== FOOTER ================ */
 footer a{
@@ -262,6 +266,10 @@ footer a:hover{
 
     .carousel h3{
         font-size: 25px;
+    }
+
+    .predictions-table h3{
+        display: none;
     }
 
 }

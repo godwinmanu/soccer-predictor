@@ -20,8 +20,11 @@
     <script src="/soccer_predictor/public/js/bootstrap.min.js"></script>
     <script src="/soccer_predictor/public/DataTables/js/jquery.dataTables.min.js"></script>
     <script src="/soccer_predictor/public/DataTables/js/dataTables.bootstrap5.min.js"></script>
+    <script src="/soccer_predictor/public/DataTables/js/dataTables.responsive.min.js"></script>
+    <script src="/soccer_predictor/public/DataTables/js/responsive.bootstrap5.min.js"></script>
     <link rel="stylesheet" href="/soccer_predictor/public/css/bootstrap.min.css">
     <link rel="stylesheet" href="/soccer_predictor/public/DataTables/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="/soccer_predictor/public/DataTables/css/responsive.bootstrap5.min.css">
     <link rel="stylesheet" href="/soccer_predictor/public/Font_awesome/css/all.min.css">
     <link rel="stylesheet" href="/soccer_predictor/public/css/main.css">
     <link rel="stylesheet" href="/soccer_predictor/public/css/results.css">
