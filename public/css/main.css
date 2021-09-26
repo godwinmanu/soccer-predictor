@@ -170,25 +170,31 @@ footer a:hover{
     
 }
 
+/******************************FOOTER-RESPONSIVE*************************************************/
 
+@media screen and (max-width:768px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .newsletter-and-other{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+        padding-bottom: 20px;
+    }
 
+    .subscribe-to-newletter>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 
+    .copyright{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}

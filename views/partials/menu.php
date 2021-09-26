@@ -4,10 +4,10 @@
     </div>
     <nav>
         <ul>
-            <li> <a href="/index.php" id="predictions-tab"> PREDICTIONS  </a></li>
-            <li> <a href="/views/pages/results.php" id="results-tab"> RESULTS </a></li>
-            <li> <a href="/views/pages/faq.php" id="faqs-tab"> FAQs </a></li>
-            <li> <a href="/views/pages/contactus.php" id="contact-us-tab"> CONTACT US </a></li>
+            <li> <a href="/soccer_predictor/index.php" id="predictions-tab"> PREDICTIONS  </a></li>
+            <li> <a href="/soccer_predictor/views/pages/results.php" id="results-tab"> RESULTS </a></li>
+            <li> <a href="/soccer_predictor/views/pages/faq.php" id="faqs-tab"> FAQs </a></li>
+            <li> <a href="/soccer_predictor/views/pages/contactus.php" id="contact-us-tab"> CONTACT US </a></li>
         </ul>
 
         <div class="social-networks">
