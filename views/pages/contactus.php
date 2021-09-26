@@ -21,7 +21,7 @@
 
             <div class="name-phone">
                 <input class="form-input" id="form-user-name" type="text" name="name" placeholder="Your name" required>                        
-                <input class="form-input " id="form-user-phone" type="text" name="phone" placeholder="Your phone" required>
+                <input class="form-input" id="form-user-phone" type="text" name="phone" placeholder="Your phone" required>
             </div>
 
             <div class="messageArea">
@@ -30,7 +30,7 @@
 
             <div class="email-sendButton">
                 <input class="form-input" id="form-email" type="email" name="email" placeholder="E-mail" required>
-                <button class="sendButton" type="submit">Send message</button>
+                <button class="sendButton p-4" type="submit">Send message</button>
             </div>
         
         </form>
