@@ -64,7 +64,7 @@
 .name-phone>input{
     padding-left: 20px;
     border: none;
-    background-color: white;
+    background-color: #edeff4;
     outline: none;
 }
 
@@ -80,7 +80,7 @@
     width: 100%;
     height: 100%;
     border: none;
-    background-color: white;
+    background-color: #edeff4;
     padding-left: 20px; 
     outline: none;
     resize : none;
@@ -93,7 +93,7 @@
 
 .email-sendButton>input{
     border: none;    
-    background-color: white;
+    background-color: #edeff4;
     outline: none;
     border-radius: 2px;
 }

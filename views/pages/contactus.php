@@ -5,6 +5,7 @@
   <section class="firstSectionContact">
       <h3 class="">Contact us</h3>
       <ul>
+          <!-- <li><a href="/index.php">Home</a> <i class="fa fa-angle-right"></i> </li> -->
           <li><a href="/soccer_predictor/index.php">Home</a> <i class="fa fa-angle-right"></i> </li>
           <li>Contact us</li>
       </ul>
