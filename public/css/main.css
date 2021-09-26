@@ -76,7 +76,7 @@ nav a:hover{
 
 /* ================== INDEX PAGE ================ */
 .carousel-item{
-    height: 550px;
+    height: 600px;
     width: 100vw;
 }
 
@@ -259,7 +259,7 @@ footer a:hover{
 
 /* ================== INDEX PAGE ================ */
     .carousel-item{
-        height: 250px;
+        height: 280px;
         width: 100vw;
     }
 
@@ -271,7 +271,23 @@ footer a:hover{
         display: none;
     }
 
-    /******************************FOOTER-RESPONSIVE*************************************************/
+    @media screen and (min-width : 525px) and (max-width : 768px){
+        .carousel-item{
+            height: 350px;
+            width: 100vw;
+        }   
+    }
+
+    @media screen and (min-width : 768px) and (max-width : 992px){
+        .carousel-item{
+            height: 450px;
+            width: 100vw;
+        }   
+    }
+
+}
+
+/******************************FOOTER-RESPONSIVE*************************************************/
 
 @media screen and (max-width:768px) {
     footer{
@@ -297,9 +313,6 @@ footer a:hover{
         flex-direction: column-reverse;
         align-items: center;
     }
-}
-
-
 }
 
 
