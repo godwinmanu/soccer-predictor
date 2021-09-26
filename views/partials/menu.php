@@ -1,23 +1,23 @@
 <header>
     <div class="jumbotron">
-        <!-- <a href="/index.php">SOCCER PREDICTOR LOGO</a> -->
-        <a href="/soccer_predictor/index.php">SOCCER PREDICTOR LOGO</a>
+        <a href="/index.php">SOCCER PREDICTOR LOGO</a>
+        <!-- <a href="/soccer_predictor/index.php">SOCCER PREDICTOR LOGO</a> -->
         <div id="menu-bars">
             <i class="fas fa-bars text-light"></i>
         </div>
     </div>
     <nav>
         <ul>
-            <li> <a href="/soccer_predictor/index.php" id="predictions-tab"> PREDICTIONS  </a></li>
+<!--             <li> <a href="/soccer_predictor/index.php" id="predictions-tab"> PREDICTIONS  </a></li>
             <li> <a href="/soccer_predictor/views/pages/results.php" id="results-tab"> RESULTS </a></li>
             <li> <a href="/soccer_predictor/views/pages/faq.php" id="faqs-tab"> FAQs </a></li>
             <li> <a href="/soccer_predictor/views/pages/contactus.php" id="contact-us-tab"> CONTACT US </a></li>
-           
-<!--        <li> <a href="/index.php" id="predictions-tab"> PREDICTIONS  </a></li>
+ -->           
+            <li> <a href="/index.php" id="predictions-tab"> PREDICTIONS  </a></li>
             <li> <a href="/views/pages/results.php" id="results-tab"> RESULTS </a></li>
             <li> <a href="/views/pages/faq.php" id="faqs-tab"> FAQs </a></li>
             <li> <a href="/views/pages/contactus.php" id="contact-us-tab"> CONTACT US </a></li>
- -->        </ul>
+        </ul>
 
         <div class="social-networks">
             <a href="#" class="fab fa-facebook-f"></a>

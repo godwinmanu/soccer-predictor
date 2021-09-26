@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!--     <script src="/public/js/jquery-3.6.0.js"></script>
+    <script src="/public/js/jquery-3.6.0.js"></script>
     <script src="/public/js/bootstrap.min.js"></script>
     <script src="/public/DataTables/js/jquery.dataTables.min.js"></script>
     <script src="/public/DataTables/js/dataTables.bootstrap5.min.js"></script>
@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="/public/css/main.css">
     <link rel="stylesheet" href="/public/css/results.css">
     <link rel="stylesheet" href="/public/css/contactus.css">
-    <link rel="stylesheet" href="/public/css/faq.css"> -->
+    <link rel="stylesheet" href="/public/css/faq.css">
 
-    <script src="/soccer_predictor/public/js/jquery-3.6.0.js"></script>
+    <!-- <script src="/soccer_predictor/public/js/jquery-3.6.0.js"></script>
     <script src="/soccer_predictor/public/js/bootstrap.min.js"></script>
     <script src="/soccer_predictor/public/DataTables/js/jquery.dataTables.min.js"></script>
     <script src="/soccer_predictor/public/DataTables/js/dataTables.bootstrap5.min.js"></script>
@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="/soccer_predictor/public/css/results.css">
     <link rel="stylesheet" href="/soccer_predictor/public/css/contactus.css">
     <link rel="stylesheet" href="/soccer_predictor/public/css/faq.css">
-    <link rel="stylesheet" href="/soccer_predictor/public/css/privacypolicy.css">
+    <link rel="stylesheet" href="/soccer_predictor/public/css/privacypolicy.css"> -->
     <title> <?= $title ?> </title>
 </head>
 <body>

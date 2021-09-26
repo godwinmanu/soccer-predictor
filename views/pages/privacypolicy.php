@@ -5,7 +5,8 @@
     <section class="firstSectionPrivacy">
       <h3 class="">Privacy Policy</h3>
       <ul>
-          <li><a href="/soccer_predictor/index.php">Home</a> <i class="icon-angle fa fa-angle-right"></i> </li>
+          <!-- <li><a href="/soccer_predictor/index.php">Home</a> <i class="icon-angle fa fa-angle-right"></i> </li> -->
+          <li><a href="/index.php">Home</a> <i class="icon-angle fa fa-angle-right"></i> </li>
           <li>Privacy Policy</li>
       </ul>
     </section>
