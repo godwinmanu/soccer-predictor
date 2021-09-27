@@ -57,15 +57,22 @@
 }
 
 .name-phone{
+    margin-bottom: 0px;
+}
+
+.name-phone, .email-sendButton{
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-.name-phone>input{
+
+
+.name-phone>input,.email-sendButton>input{
     padding-left: 20px;
     border: none;
     background-color: white;
     outline: none;
+    border-radius: 4px;
 }
 
 #form-user-phone{
@@ -73,7 +80,7 @@
 }
 
 .messageArea{
-    margin: 10px 0px;  
+    margin: 15px 0px;  
 }
 
 .messageArea>textarea{
@@ -86,17 +93,6 @@
     resize : none;
 }
 
-.email-sendButton{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.email-sendButton>input{
-    border: none;    
-    background-color: white;
-    outline: none;
-    border-radius: 2px;
-}
 
 .email-sendButton>input:active{
     background-color: white;
@@ -191,8 +187,6 @@
     .secondSectionContact{
         display: flex;
         flex-direction: column;
-        /* width: 100%; */
-        /* border: 5px solid rgb(14, 139, 148); */
         padding: 65px 10px; 
     }
 
@@ -207,46 +201,50 @@
         flex-direction: column ;
         margin-bottom: 60px;
     }
-
     .name-phone{
+        margin-bottom: 0px;
+        margin-bottom: 15px;
+    }
+    .name-phone, .email-sendButton{
         display: flex;
         flex-direction: column;
+    }
+    .name-phone>*{
+        margin-bottom: 15px;
+    }
+    .email-sendButton>input{
+        margin-bottom: 20px;
     }
 
     .name-phone>input, .email-sendButton>input{
         width: 100%;
         height: 60px;
-        margin-bottom: 10px;
     }
     #form-user-phone{
-        margin-left: 0px;
+        margin: 0px;
     }
     .email-sendButton>button{
         width: 100%;
         padding: 0px;
-    }
-
-    #form-user-phone{
-        margin-bottom: 0px;
+        height: 60px;
+        margin-top: 15px;
     }
 
     .messageArea{
-        margin-bottom: 0px;
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 7px;
     }
 
     .messageArea>textarea{
-        margin-top: 0px;
+        margin: 0px;
         outline: none;
         height: 200px;
         resize : none;
     }
 
-    .email-sendButton{
-        display: block;
-    }
-  
     #form-email{
-        margin-right: 0px;
+        margin: 0px;
         padding-left: 20px;        
     }
 
@@ -290,10 +288,11 @@
         margin-right: 15px;
     }
 
+
 }
 
 /* **********************Tablette********************** */
-@media screen and (min-width:768px) and (max-width:979px) {
+@media screen and (min-width:768px) and (max-width:980px) {
      /*******firstSectionContact*********/
     .firstSectionContact{
         height: 300px;
@@ -308,25 +307,78 @@
     .secondSectionContact{
         display: flex;
         flex-direction: column;
-        padding: 65px; 
-        color: red;
+        padding: 70px 100px; 
     }
-    .name-phone{
+
+    .first-column, .second-column{
         display: flex;
-        flex-direction: row;        
-        column-gap: 10px;
+        flex-direction: column;
+        row-gap: 8px;
     }
-    .email-sendButton{
+
+    .contactForm{
         display: flex;
-        column-gap: 10px;
-        margin-top: 10px;
+        flex-direction: column ;
+        margin-bottom: 60px;
     }
-    .email-sendButton>button{
+
+    .name-phone, .email-sendButton {
+        display: flex;
+        flex-direction: row;
+        row-gap: 10px;
+    }
+
+    .name-phone>input, .email-sendButton>input{
+        width: 100%;
         height: 60px;
     }
-    .contact-list{
-        font-size: 20px;
+    .email-sendButton{
+        margin-top:10px;
     }
+    .email-sendButton>button{
+        width: 100%;
+    }
+
+    #form-user-phone{
+        margin-left: 10px;
+    }
+  
+    .messageArea{
+        margin-bottom: 0px;
+    }
+
+    .messageArea>textarea{
+        margin-top: 0px;
+        outline: none;
+        height: 200px;
+        resize : none;
+    }
+
+    #form-email{
+        margin-right: 10px;
+        padding-left: 20px;        
+    }
+
+    .contact-list{
+        font-size: 18px;
+    }
+
+    .contact-list>div>dl{
+        display: grid;
+        align-self: center;
+        padding: 10px 20px;
+    }
+
+    .contact-list>div>dl>dt{
+        text-transform: uppercase;
+        font-size:13px;
+        margin-bottom: 3%;
+    }
+
+    .icon{
+        font-size: 25px;
+    }
+
     
 }
 
@@ -351,6 +403,10 @@
     .name-phone>input{
         height: 60px;
     }
+    .email-sendButton>*{ 
+        height: 60px;
+    }
+    
 
     .messageArea>textarea{
         height: 200px;
