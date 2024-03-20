@@ -31,7 +31,7 @@
 
             <div class="email-sendButton">
                 <input class="form-input" id="form-email" type="email" name="email" placeholder="E-mail" required>
-                <button class="sendButton p-4" type="submit">Send message</button>
+                <button class="sendButton" type="submit">Send message</button>
             </div>
         
         </form>
