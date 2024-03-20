@@ -5,7 +5,8 @@
   <section class="firstSectionContact">
       <h3 class="">Contact us</h3>
       <ul>
-          <li><a href="index.php">Home</a> <i class="fa fa-angle-right"></i> </li>
+          <li><a href="/index.php">Home</a> <i class="fa fa-angle-right"></i> </li>
+          <!-- <li><a href="/soccer_predictor/index.php">Home</a> <i class="fa fa-angle-right"></i> </li> -->
           <li>Contact us</li>
       </ul>
   </section>
@@ -74,9 +75,19 @@
 
   <script>
       $(function(){
-          $("#contact-us-tab").css({
-              color: "rgb(255, 208, 0)"
-          });
+          let userScreenWidth = screen.width;
+
+          if(userScreenWidth < 992){
+              $("#contact-us-tab").parent().css({
+                  backgroundColor: "#64b000"
+              });
+          }
+          else{
+              $("#contact-us-tab").css({
+                  color: "rgb(255, 208, 0)"
+              });
+          }
+
       });
   </script>
 

@@ -1,32 +1,31 @@
-.containFAQ{
-    padding-top: 170px;
-    margin: 0px 10%;
+body{
+    background-color: white;
+}
+
+.faq-container{
+    padding: 7%;
+    padding-top: 13%;
+}
+
+.faq-header-title h5{
+    font-weight: bold;
+    font-size: 17px;
 }
 
 .question_reponse{
-    margin-bottom: 3%;
-    background-color: whitesmoke;
+    margin-bottom: 25px;
+    font-size: 15px;
 }
 
 .question{
-    font-size: 17px;
-    padding: 10px;
-}
-
-.question span{
-    color: rgb(255, 94, 0);
-    font-size: 30px;
-}
-
-.reponse span{
-    color: rgb(100,176,0);
-    font-size: 30px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .reponse{
-    padding: 10px;
-    font-size: 17px;
-    background-color: aliceblue;
+    padding: 5px;
+    color: rgb(139, 138, 137);
 }
 
 #title_faq::before{
@@ -42,3 +41,11 @@
     margin-bottom: 3%;
 }
 
+
+/* ================== RESPONSIVE ================ */
+
+@media screen and (max-width : 992px) {
+    .faq-container{
+        padding-top: 100px;
+    }
+}

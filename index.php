@@ -20,7 +20,7 @@
             <img src="public/images/Ball-Field-Match-Football-Stadium-Soccer.png" alt="SLIDE">
         </div>
         <div class="carousel-item" data-bs-interval="3000">
-            <img src="public/images/soccer-stadium_2.webp" alt="SLIDE">
+            <img src="public/images/soccer-stadium_2.jpg" alt="SLIDE">
         </div>
     </div>
     <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel">
@@ -59,11 +59,30 @@
 </div>
 <script>
     $(function(){
-        $("#predictions-tab").css({
-            color: "rgb(255, 208, 0)"
-        });
+        let userScreenWidth = screen.width;
 
-        $("table").DataTable();
+        if(userScreenWidth < 992){
+            $("#predictions-tab").parent().css({
+                backgroundColor: "#64b000"
+            });
+
+            $("table").DataTable({
+                info: false,
+                "lengthChange": false,
+                responsive: true,
+            });
+        }
+        else{
+            $("#predictions-tab").css({
+                color: "rgb(255, 208, 0)"
+            });
+
+            $("table").DataTable( {
+                responsive: true
+            });
+        }
+
+        
     });
 </script>
 
